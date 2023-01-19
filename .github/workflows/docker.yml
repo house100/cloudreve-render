@@ -22,7 +22,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: zzyac/alist-aria2
+          images: zzyac/cloudreve-aria2
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
